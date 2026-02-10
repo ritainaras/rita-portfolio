@@ -1,0 +1,102 @@
+sobre.html
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sobre — Rita Inara</title>
+  <meta name="description" content="Sobre Rita Inara, redatora e social media." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+
+  <header>
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <div class="brand-badge" aria-hidden="true"></div>
+        <div class="brand-text">
+          <strong>Rita Inara</strong>
+          <span>Redatora • Social Media</span>
+        </div>
+      </a>
+
+      <nav aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" style="padding-top:34px;">
+      <div>
+        <h1 class="h-title">Sobre a <span class="grad-text">Rita</span></h1>
+        <p class="h-sub">
+          Sou redatora e social media. Gosto de unir estratégia e criatividade para transformar ideias em conteúdo
+          claro, leve e com intenção.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="contato.html">Vamos conversar</a>
+          <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ritainara/">Ver LinkedIn</a>
+        </div>
+      </div>
+
+      <aside class="card">
+        <h2 style="margin:0 0 10px;">Meu foco</h2>
+        <p style="margin:0; color:rgba(255,255,255,.76); line-height:1.55;">
+          Conteúdo com personalidade e organização: tom de voz, narrativa e formatos que funcionam no dia a dia
+          (e não só “bonito no papel”).
+        </p>
+        <div class="pills">
+          <span class="pill">Tom de voz</span>
+          <span class="pill">Ganchos</span>
+          <span class="pill">Storytelling</span>
+          <span class="pill">Consistência</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <h2>Meu processo</h2>
+      <div class="grid">
+        <div class="card">
+          <h2 style="margin:0 0 8px;">1) Briefing</h2>
+          <p>Entender objetivo, público, referências e o que a marca precisa agora.</p>
+        </div>
+        <div class="card">
+          <h2 style="margin:0 0 8px;">2) Estratégia</h2>
+          <p>Organizo pautas, formatos, linha editorial e direcionamento criativo.</p>
+        </div>
+        <div class="card">
+          <h2 style="margin:0 0 8px;">3) Produção</h2>
+          <p>Copy, roteiros, legendas e entregas prontas para publicação/execução.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Rita Inara</span>
+      <div class="small-links">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ritainara/">LinkedIn</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
