@@ -1,0 +1,112 @@
+servicos.html
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Serviços — Rita Inara</title>
+  <meta name="description" content="Serviços de redação e social media." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+
+  <header>
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <div class="brand-badge" aria-hidden="true"></div>
+        <div class="brand-text">
+          <strong>Rita Inara</strong>
+          <span>Redatora • Social Media</span>
+        </div>
+      </a>
+
+      <nav aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" style="padding-top:34px;">
+      <div>
+        <h1 class="h-title">Serviços com <span class="grad-text">clareza</span></h1>
+        <p class="h-sub">
+          Você escolhe o formato (pacote mensal ou projeto pontual) e eu cuido do conteúdo com estratégia e estética.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="contato.html">Quero orçamento</a>
+          <a class="btn" href="portfolio.html">Ver exemplos</a>
+        </div>
+      </div>
+
+      <aside class="card">
+        <h2 style="margin:0 0 10px;">Formatos</h2>
+        <p style="margin:0; color:rgba(255,255,255,.76); line-height:1.55;">
+          <strong>Mensal:</strong> planejamento + produção contínua.<br/>
+          <strong>Pontual:</strong> campanha, lançamento, copy específica, auditoria.
+        </p>
+      </aside>
+    </section>
+
+    <section class="section">
+      <h2>Social Media</h2>
+      <div class="grid">
+        <div class="card">
+          <h2 style="margin:0 0 8px;">Planejamento mensal</h2>
+          <p>Calendário editorial, temas, pautas, ganchos e direcionamento de formatos.</p>
+        </div>
+        <div class="card">
+          <h2 style="margin:0 0 8px;">Copy + legendas</h2>
+          <p>Legendas com CTA, storytelling e linguagem alinhada ao público.</p>
+        </div>
+        <div class="card">
+          <h2 style="margin:0 0 8px;">Roteiros para Reels</h2>
+          <p>Roteiros curtos com gancho, desenvolvimento e fechamento.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Redação / Copy</h2>
+      <div class="grid">
+        <div class="card">
+          <h2 style="margin:0 0 8px;">Textos institucionais</h2>
+          <p>Bio, sobre, posicionamento, páginas de serviço e apresentação.</p>
+        </div>
+        <div class="card">
+          <h2 style="margin:0 0 8px;">Landing pages</h2>
+          <p>Copy orientada a conversão com estrutura e escaneabilidade.</p>
+        </div>
+        <div class="card">
+          <h2 style="margin:0 0 8px;">Blog/SEO</h2>
+          <p>Conteúdo com pesquisa, intenção de busca e legibilidade.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Rita Inara</span>
+      <div class="small-links">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ritainara/">LinkedIn</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
